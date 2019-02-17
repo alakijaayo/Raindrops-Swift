@@ -9,6 +9,9 @@ class Factor {
         if n % 3 == 0 {
             output += "Pling"
         }
+        if n % 5 == 0 {
+            output += "Plang"
+        }
         return output.isEmpty ? "\(n)" : output
     }
 }
