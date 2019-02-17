@@ -12,6 +12,9 @@ class Factor {
         if n % 5 == 0 {
             output += "Plang"
         }
+        if n % 7 == 0 {
+            output += "Plong"
+        }
         return output.isEmpty ? "\(n)" : output
     }
 }
@@ -37,7 +40,7 @@ class FactorTests: XCTestCase {
     }
     
     func testDivisibleBy7Plong() {
-        XCTAssertEqual(sut.check_number(n: 21), "Plong")
+        XCTAssertEqual(sut.check_number(n: 14), "Plong")
     }
 }
 
