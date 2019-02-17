@@ -28,6 +28,10 @@ class FactorTests: XCTestCase {
     func testNotDivisibleByNumbers() {
         XCTAssertEqual(sut.check_number(n: 8), "8")
     }
+    
+    func testDivisibleby5Plang() {
+        XCTAssertEqual(sut.check_number(n: 10), "Plang")
+    }
 }
 
 FactorTests.defaultTestSuite.run()
