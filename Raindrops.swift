@@ -11,5 +11,4 @@ class FactorTests: XCTestCase {
     func testDivisibleBy3Pling() {
         XCTAssertEqual(sut.pling(n: 3), "Pling")
     }
-    
 }

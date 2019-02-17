@@ -4,6 +4,14 @@ import XCTest
 
 class Factor {
     
+    func check_number(n: Int) -> String {
+        var output = ""
+        if n % 3 == 0 {
+            output += "Pling"
+        }
+        return output
+    }
+    
 }
 
 class FactorTests: XCTestCase {
@@ -15,7 +23,8 @@ class FactorTests: XCTestCase {
     }
     
     func testDivisibleBy3Pling() {
-        XCTAssertEqual(sut.pling(n: 3), "Pling")
+        XCTAssertEqual(sut.check_number(n: 3), "Pling")
     }
-
 }
+
+FactorTests.defaultTestSuite.run()
