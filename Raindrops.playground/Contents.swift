@@ -32,8 +32,12 @@ class FactorTests: XCTestCase {
         XCTAssertEqual(sut.check_number(n: 8), "8")
     }
     
-    func testDivisibleby5Plang() {
+    func testDivisibleBy5Plang() {
         XCTAssertEqual(sut.check_number(n: 10), "Plang")
+    }
+    
+    func testDivisibleBy7Plong() {
+        XCTAssertEqual(sut.check_number(n: 21), "Plong")
     }
 }
 
