@@ -9,9 +9,8 @@ class Factor {
         if n % 3 == 0 {
             output += "Pling"
         }
-        return output
+        return output.isEmpty ? "\(n)" : output
     }
-    
 }
 
 class FactorTests: XCTestCase {
