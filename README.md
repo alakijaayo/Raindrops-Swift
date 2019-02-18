@@ -1,6 +1,6 @@
 # Raindrops-Swift
 
-This repository is work based on a tech test provided by Deloitte System Integration. In it, we are expected to work on the puzzle Raindrops. After doing the tech test initially in Ruby and JavaScript, I proceeded to try and do it in Swift.
+This repository is work based on a tech test provided. In it, we are expected to work on the puzzle Raindrops. After doing the tech test initially in Ruby and JavaScript, I proceeded to try and do it in Swift.
 
 ## Task
 
